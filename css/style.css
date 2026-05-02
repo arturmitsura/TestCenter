@@ -550,7 +550,9 @@ body::after {
 }
 
 .page__main {
-  padding: 1.375rem 0;
+  padding: 1.875rem 0;
+  background-color: #1b4f9b;
+  color: #fff !important;
 }
 
 .page__article {
@@ -1196,7 +1198,21 @@ body::after {
 }
 */
 
-:is(.services-page__body, .main-page__text)[style*="overflow: hidden"][style*=height]::after {
+:is(.main-page__text)[style*="overflow: hidden"][style*=height]::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 35%;
+  background: -webkit-gradient(linear, left bottom, left top, from(#1b4f9b), to(rgba(255, 255, 255, 0)));
+  background: -o-linear-gradient(bottom, #1b4f9b 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to top, #1b4f9b 0%, rgba(255, 255, 255, 0) 100%);
+  pointer-events: none;
+  z-index: 2;
+}
+
+:is(.services-page__body)[style*="overflow: hidden"][style*=height]::after {
   content: "";
   position: absolute;
   left: 0;

@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20260502100311">
+	<link rel="stylesheet" href="css/style.min.css?_v=20260502115249">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -124,18 +124,45 @@
 		</footer>
 	</div>
 
-	<script src="js/app.min.js?_v=20260502100311"></script>
+	<script src="js/app.min.js?_v=20260502115249"></script>
 
+	<!--
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js?_v=20260502115249"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js?_v=20260502115249"></script>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const el = document.querySelector(".main-page__image");
+  console.log("main-page:", el);
 
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js?_v=20260502100311"></script>
-	<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js?_v=20260502100311"></script>
+  if (el) {
+    VANTA.BIRDS({
+      el: el,
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      backgroundColor: 0xffffff,
+      color1: 0x1e1212,
+      birdSize: 2.30,
+      quantity: 2.00
+    });
+  }
+});
+</script>
+-->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js?_v=20260502115249"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js?_v=20260502115249"></script>
 	<script>
 		document.addEventListener("DOMContentLoaded", function() {
-			const el = document.querySelector(".main-page__image");
+			const el = document.querySelector(".main-page");
 			console.log("main-page:", el);
 
 			if (el) {
-				VANTA.BIRDS({
+				VANTA.GLOBE({
 					el: el,
 					mouseControls: true,
 					touchControls: true,
@@ -144,14 +171,13 @@
 					minWidth: 200.00,
 					scale: 1.00,
 					scaleMobile: 1.00,
-					backgroundColor: 0xffffff,
-					color1: 0x1e1212,
-					birdSize: 2.30,
-					quantity: 2.00
+					color: 0x20d72b,
+					backgroundColor: 0x1b4f9b
 				});
 			}
 		});
 	</script>
+
 </body>
 
 </html>

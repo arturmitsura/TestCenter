@@ -759,6 +759,11 @@ body::after {
   display: none;
 }
 
+.top-header__qr-white2 {
+  width: 25px;
+  display: block;
+}
+
 .top-header__column {
   font-size: 0.875rem;
   line-height: 1.2142857143;
@@ -777,7 +782,7 @@ body::after {
 }
 
 .bottom-header {
-  padding: 1.125rem 0;
+  padding: 0.625rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -788,6 +793,21 @@ body::after {
       -ms-flex-align: center;
           align-items: center;
   gap: 0.4375rem;
+}
+
+.bottom-header__logo {
+  max-width: 12.5rem;
+}
+
+.bottom-header__logo img {
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.bottom-header__logo_white {
+  max-width: 9.375rem;
 }
 
 .menu {
@@ -1065,6 +1085,9 @@ body::after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   -webkit-box-flex: 50%;
       -ms-flex: 50%;
           flex: 50%;
@@ -2175,24 +2198,6 @@ button.swiper-pagination-bullet {
 }
 
 @media (min-width: 47.99875em) {
-  .test-page__text_background {
-    position: relative;
-  }
-
-  .test-page__text_background::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: url("../img/photo/photo_test_ppe_5.png") 0 bottom/contain no-repeat;
-    opacity: 0.3;
-    z-index: 0;
-  }
-
-  .test-page__text_background > * {
-    position: relative;
-    z-index: 1;
-  }
-
   .services-page__body {
     padding: 2rem;
   }

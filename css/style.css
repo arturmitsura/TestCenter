@@ -1234,6 +1234,7 @@ body::after {
   grid-template-columns: repeat(2, 1fr);
   gap: 2.1875rem;
   border-radius: 0.3125rem;
+  grid-auto-rows: 1fr;
   position: relative;
 }
 

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" role="img" aria-labelledby="title desc">
+  <title id="title">Road Safety</title>
+  <desc id="desc">50 by 50 pixel thematic line icon for Road Safety.</desc>
+  <circle cx="25" cy="25" r="24" fill="#e8ecf5"/>
+  <g fill="none" stroke="#092043" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M19 38l4-24"/>
+    <path d="M31 38l-4-24"/>
+    <path d="M25 15v4"/>
+    <path d="M25 24v4"/>
+    <path d="M25 33v3"/>
+    <path d="M16 38h18"/>
+    <path d="M16 18h18"/>
+  </g>
+</svg>

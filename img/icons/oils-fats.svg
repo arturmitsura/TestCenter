@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" role="img" aria-labelledby="title desc">
+  <title id="title">Oils Fats</title>
+  <desc id="desc">50 by 50 pixel thematic line icon for Oils Fats.</desc>
+  <circle cx="25" cy="25" r="24" fill="#e8ecf5"/>
+  <g fill="none" stroke="#092043" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 14c-4 6-7 10-7 15a8 8 0 0 0 16 0c0-5-5-9-9-15z"/>
+    <path d="M22 32c2 2 5 2 7-1"/>
+    <path d="M33 18c3 0 5-2 6-5-4 0-6 2-6 5z"/>
+    <path d="M31 21l5-5"/>
+  </g>
+</svg>

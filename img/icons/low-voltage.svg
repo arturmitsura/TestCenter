@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" role="img" aria-labelledby="title desc">
+  <title id="title">Low Voltage Equipment</title>
+  <desc id="desc">50 by 50 pixel thematic line icon for Low Voltage Equipment.</desc>
+  <circle cx="25" cy="25" r="24" fill="#e8ecf5"/>
+  <g fill="none" stroke="#092043" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M27 12L18 27h7l-2 11 9-15h-7l2-11z"/>
+  </g>
+</svg>

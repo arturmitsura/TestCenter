@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" role="img" aria-labelledby="title desc">
+  <title id="title">Children Products</title>
+  <desc id="desc">50 by 50 pixel thematic line icon for Children Products.</desc>
+  <circle cx="25" cy="25" r="24" fill="#e8ecf5"/>
+  <g fill="none" stroke="#092043" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M17 27c0-6 4-11 8-11s8 5 8 11v1c0 6-4 10-8 10s-8-4-8-10z"/>
+    <path d="M19 23c2-3 4-4 6-4 3 0 5 1 7 4"/>
+    <path d="M23 17c1-2 4-2 4 1"/>
+    <path d="M21 29h.1M29 29h.1"/>
+    <path d="M22 33c2 2 4 2 6 0"/>
+    <path d="M17 27h-1a2 2 0 0 0 0 4h1"/>
+    <path d="M33 27h1a2 2 0 0 1 0 4h-1"/>
+    <path d="M19 38c2-2 4-3 6-3s4 1 6 3"/>
+  </g>
+</svg>

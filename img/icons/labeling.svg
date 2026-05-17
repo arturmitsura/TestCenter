@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" role="img" aria-labelledby="title desc">
+  <title id="title">Food Labeling</title>
+  <desc id="desc">50 by 50 pixel thematic line icon for Food Labeling.</desc>
+  <circle cx="25" cy="25" r="24" fill="#e8ecf5"/>
+  <g fill="none" stroke="#092043" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M17 15h16l4 4v20H17z"/>
+    <path d="M33 15v5h5"/>
+    <path d="M21 23h8"/>
+    <path d="M21 28h12"/>
+    <path d="M21 33h9"/>
+    <path d="M18 17l-5 5 5 5"/>
+  </g>
+</svg>

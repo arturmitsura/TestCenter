@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" role="img" aria-labelledby="title desc">
+  <title id="title">Furniture</title>
+  <desc id="desc">50 by 50 pixel thematic line icon for Furniture.</desc>
+  <circle cx="25" cy="25" r="24" fill="#e8ecf5"/>
+  <g fill="none" stroke="#092043" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 20h14a4 4 0 0 1 4 4v7H14v-7a4 4 0 0 1 4-4z"/>
+    <path d="M17 31v7"/>
+    <path d="M33 31v7"/>
+    <path d="M18 20v-4h14v4"/>
+    <path d="M14 27h22"/>
+  </g>
+</svg>

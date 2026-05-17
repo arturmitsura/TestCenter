@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" role="img" aria-labelledby="title desc">
+  <title id="title">Poultry</title>
+  <desc id="desc">50 by 50 pixel thematic line icon for Poultry.</desc>
+  <circle cx="25" cy="25" r="24" fill="#e8ecf5"/>
+  <g fill="none" stroke="#092043" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M17 33c0-7 5-12 12-12 5 0 9 3 9 8 0 6-5 11-12 11-4 0-7-2-9-7z"/>
+    <path d="M24 21c0-3 2-5 4-5 1 0 2 .4 3 1 0-1 1-2 3-2 2 0 3 2 3 4"/>
+    <path d="M31 26l7 2-7 3"/>
+    <path d="M29 30c0 2 1 4 3 4"/>
+    <circle cx="28" cy="25" r="1" fill="#092043" stroke="none"/>
+    <path d="M19 34c2 2 4 3 7 3"/>
+  </g>
+</svg>

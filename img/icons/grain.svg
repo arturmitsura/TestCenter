@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" role="img" aria-labelledby="title desc">
+  <title id="title">Grain</title>
+  <desc id="desc">50 by 50 pixel thematic line icon for Grain.</desc>
+  <circle cx="25" cy="25" r="24" fill="#e8ecf5"/>
+  <g fill="none" stroke="#092043" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M25 38V14"/>
+    <path d="M25 18c-5 0-7-3-7-5 5 0 7 3 7 5z"/>
+    <path d="M25 22c5 0 7-3 7-5-5 0-7 3-7 5z"/>
+    <path d="M25 26c-5 0-7-3-7-5 5 0 7 3 7 5z"/>
+    <path d="M25 30c5 0 7-3 7-5-5 0-7 3-7 5z"/>
+    <path d="M25 34c-5 0-7-3-7-5 5 0 7 3 7 5z"/>
+  </g>
+</svg>

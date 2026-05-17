@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" role="img" aria-labelledby="title desc">
+  <title id="title">Drinking Water</title>
+  <desc id="desc">50 by 50 pixel thematic line icon for Drinking Water.</desc>
+  <circle cx="25" cy="25" r="24" fill="#e8ecf5"/>
+  <g fill="none" stroke="#092043" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 17h10"/>
+    <path d="M22 17v4l-3 4v13h12V25l-3-4v-4"/>
+    <path d="M19 29h12"/>
+    <path d="M25 31c-2 3-4 5-4 7a4 4 0 0 0 8 0c0-2-2-4-4-7z"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" role="img" aria-labelledby="title desc">
+  <title id="title">EMC</title>
+  <desc id="desc">50 by 50 pixel thematic line icon for EMC.</desc>
+  <circle cx="25" cy="25" r="24" fill="#e8ecf5"/>
+  <g fill="none" stroke="#092043" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="18" y="20" width="14" height="18" rx="2"/>
+    <path d="M21 24h8"/>
+    <path d="M21 28h8"/>
+    <path d="M23 34h4"/>
+    <path d="M15 18c-2 3-2 8 0 11"/>
+    <path d="M11 15c-4 6-4 13 0 19"/>
+    <path d="M35 18c2 3 2 8 0 11"/>
+    <path d="M39 15c4 6 4 13 0 19"/>
+  </g>
+</svg>

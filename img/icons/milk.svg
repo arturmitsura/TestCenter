@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" role="img" aria-labelledby="title desc">
+  <title id="title">Milk</title>
+  <desc id="desc">50 by 50 pixel thematic line icon for Milk.</desc>
+  <circle cx="25" cy="25" r="24" fill="#e8ecf5"/>
+  <g fill="none" stroke="#092043" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M18 19l4-5h7l3 5v19H18z"/>
+    <path d="M18 19h14"/>
+    <path d="M22 14v5"/>
+    <path d="M22 26c3-3 6-3 9 0"/>
+    <path d="M22 30c3 3 6 3 9 0"/>
+  </g>
+</svg>

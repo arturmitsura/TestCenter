@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" role="img" aria-labelledby="title desc">
+  <title id="title">Electronics</title>
+  <desc id="desc">50 by 50 pixel thematic line icon for Electronics.</desc>
+  <circle cx="25" cy="25" r="24" fill="#e8ecf5"/>
+  <g fill="none" stroke="#092043" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="18" y="18" width="14" height="14" rx="2"/>
+    <path d="M22 22h6v6h-6z"/>
+    <path d="M20 14v4M25 14v4M30 14v4"/>
+    <path d="M20 32v4M25 32v4M30 32v4"/>
+    <path d="M14 20h4M14 25h4M14 30h4"/>
+    <path d="M32 20h4M32 25h4M32 30h4"/>
+    <path d="M35 15l-20 20"/>
+  </g>
+</svg>

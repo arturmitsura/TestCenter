@@ -1064,6 +1064,15 @@ body::after {
   width: 100%;
 }
 
+.main-page__flags-desc {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+  grid-template-columns: repeat(5, 1fr);
+  font-size: 0.9375rem;
+  padding-left: 0.3125rem;
+}
+
 .main-page__text {
   max-width: 31rem;
   margin-top: 1rem;
@@ -1399,7 +1408,7 @@ body::after {
 
 .card-services__description p {
   width: 100%;
-  text-align: end;
+  text-align: center;
 }
 
 .card-services__image {
@@ -2889,6 +2898,10 @@ button.swiper-pagination-bullet {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+
+  .main-page__flags-desc {
+    display: none;
   }
 
   .main-page__image {

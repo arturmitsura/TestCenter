@@ -1070,7 +1070,17 @@ body::after {
           transform: translate(-30%, -160%);
 }
 
+.main-page__flags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .main-page__flags img {
+  max-width: 53.75rem;
   width: 100%;
 }
 
@@ -1081,6 +1091,7 @@ body::after {
   grid-template-columns: repeat(5, 1fr);
   font-size: 1.5625rem;
   padding-left: 0.625rem;
+  max-width: 53.75rem;
 }
 
 .main-page__text {
@@ -1108,15 +1119,15 @@ body::after {
 
 .main-page__list {
   line-height: 1.4444444444;
-  border-top: 0.25rem solid rgba(0, 0, 0, 0.7);
-  border-bottom: 0.25rem solid rgba(0, 0, 0, 0.7);
+  border-top: 0.125rem dashed rgba(0, 0, 0, 0.7);
+  border-bottom: 0.125rem dashed rgba(0, 0, 0, 0.7);
 }
 
 .main-page__item {
   position: relative;
   padding: 1.125rem 0 1.125rem 3.75rem;
   min-height: 3.125rem;
-  border-bottom: 0.25rem solid rgba(0, 0, 0, 0.7);
+  border-bottom: 0.125rem dashed rgba(0, 0, 0, 0.7);
   -webkit-column-break-inside: avoid;
      -moz-column-break-inside: avoid;
           break-inside: avoid;
@@ -2536,7 +2547,7 @@ button.swiper-pagination-bullet {
   }
 
   .main-page__item:nth-child(n+12) {
-    border-left: 0.25rem solid rgba(0, 0, 0, 0.7);
+    border-left: 0.125rem dashed rgba(0, 0, 0, 0.7);
     padding-left: 5rem;
   }
 
@@ -2584,6 +2595,10 @@ button.swiper-pagination-bullet {
 
   .main-page__title {
     font-size: 3rem;
+  }
+
+  .main-page__text {
+    font-size: 1.1875rem;
   }
 
   .main-page__item_big {
@@ -2699,6 +2714,10 @@ button.swiper-pagination-bullet {
 
   .main-page__title {
     font-size: 1.875rem;
+  }
+
+  .main-page__text {
+    font-size: 1rem;
   }
 
   .main-page__item_big {
@@ -3269,6 +3288,18 @@ button.swiper-pagination-bullet {
 @supports not (font-size: clamp( 1.875rem , 1.4659090909rem  +  2.0454545455vw , 3rem )) {
     .main-page__title {
       font-size: calc(1.875rem + 1.125 * (100vw - 20rem) / 55);
+    }
+}
+
+@supports (font-size: clamp( 1rem , 0.9318181818rem  +  0.3409090909vw , 1.1875rem )) {
+    .main-page__text {
+      font-size: clamp( 1rem , 0.9318181818rem  +  0.3409090909vw , 1.1875rem );
+    }
+}
+
+@supports not (font-size: clamp( 1rem , 0.9318181818rem  +  0.3409090909vw , 1.1875rem )) {
+    .main-page__text {
+      font-size: calc(1rem + 0.1875 * (100vw - 20rem) / 55);
     }
 }
 
